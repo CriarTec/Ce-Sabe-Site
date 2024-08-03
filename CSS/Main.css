@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --bg-colour: #12397C;
+    --bg-colour-escura: #000000;
+    --HighLight-colour: #db2a2a;
+    --card-colour: #04142E;
+    --tex-colour: #D9D9D9;
+    --text-colour-alternative: #06132A;
+    --font-regular: 400;
+    --font-semibold: 600;
+    --font-black: 900; 
+
+}
+
+@font-face {
+    font-family: Snell-Houndhand;
+    src: url(../Fontes/SnellBT-Regular.otf);
+}
+
+@font-face {
+    font-family: Snell-Bold;
+    src: url(../Fontes/SnellBT-Bold.otf);
+}
+
+@font-face {
+    font-family: Snell-black;
+    src: url(../Fontes/SnellRoundhand-BlackScript.otf);
+}
+body{
+    background: linear-gradient(var(--bg-colour), var(--bg-colour-escura));
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}   
+
+p{
+    text-decoration: none;
+    color: var(--tex-colour);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 5rem 10rem;   
+    align-items: center;
+}
+
+.logo{
+    height: 8% ;
+    width: 8% ;
+}
+
+
+.home{
+    background-image: url(../Fotos/home-filtro.png);
+    width: 100%;
+    height: 100vh;
+    color: var(--tex-colour);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home p{  
+    text-align: center;
+    margin: 0 16%;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+#CêSabeTitulo{
+    font-size: 150px;
+    color: var(--HighLight-colour);
+    font-family: "Snell-Houndhand";
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 2rem 3rem 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: var(--tex-colour);
+
+}
+
+
+
+iframe{
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+.sobre-artista{
+    display: flex;
+    margin: 0 2%;
+    border: 2px var(--tex-colour);
+    border-style: solid;
+    border-top-style: hidden;
+    padding-bottom: 10%;
+}
+
+.sobre-artista img{
+    margin: 5%;
+    margin-left: 10%;
+}
+
+
+
+.infos-artista{
+    color: var(--tex-colour);
+    align-content: center;
+    margin: 0 12% 0 12%;
+}
+
+.sobre-artista h1{
+    font-size: 128px;
+    margin-bottom: 2%;
+    color: var(--HighLight-colour);
+    font-family: "Snell-Houndhand";
+    text-align: center;
+}
+
+.sobre-artista p{
+    text-align: justify;
+    padding-right: 15%;
+    font-size: 16px;
+}
+
+.diario-de-bordo{
+    border: 2px var(--tex-colour);
+    border-style: solid;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    margin: 0 20%;
+    margin-top: -7%;
+    font-size: 40px;
+    padding: 2%;
+    margin-bottom: 14.2rem;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diario-de-bordo h1{
+    text-align: center;
+    color: var(--HighLight-colour);
+}
+
+
+
+.Cards-Bordo{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards{
+    color: var(--text-colour-alternative);
+    background-color:var(--HighLight-colour);
+    padding: 3.4rem;
+    width: 28%;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.cards h2{
+    margin-bottom: 4%;
+}
+
+.cards p{
+    text-align: justify;
+    color: var(--text-colour-alternative);
+}
+
+
+.Fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 17.1rem;
+
+}
+.uma-foto{
+    width: 100vw;
+}
+.uma-foto img{
+width: 100%;
+}
+.duas-fotos{
+    display: flex;
+    width: 100vw;
+}
+
+.duas-fotos img{
+    width: 50%;
+}
+
+.tres-fotos{
+    display: flex;
+    width: 100vw;
+}
+
+.tres-fotos img{
+    width: 33.333%;
+}
+
+
+
+.swiper-wraper{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    display: flex ;
+    color: var(--tex-colour);
+    border: 1px solid var(--tex-colour);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    padding: 1% !important;
+    width: 28% !important;
+    min-height: 40rem;
+    margin: 0 1% !important ;
+    text-align: justify;
+    max-height: 50rem;
+    
+}
+
+
+.card img{
+    border-radius: 9999px;
+    width: 15%;
+    height: 15%;
+    margin-right: 4%;
+}
+
+.name-profesion{
+    flex-direction: column;
+    margin-left: 4%;
+}
+
+.name-profesion h4{
+    margin-top: 1%;
+    font-weight: var(--font-regular);
+    font-size: small;
+   
+}
+
+.card p{
+    margin-top: 5%;
+    flex-direction: column;
+    margin-bottom: 8%;
+
+    
+}
+
+i{
+    background-color: white;
+    border-radius: 999%;
+    width: fit-content;
+    height: fit-content;
+    padding: 2% !important;
+    color: black;
+    justify-content: flex-end;
+}
+
+.swiper-slide:hover{
+    background-color: var(--HighLight-colour);
+    border: none;
+    p{
+        color: var(--text-colour-alternative);
+    }
+
+    h3{
+        color: var(--text-colour-alternative);
+    }
+
+    h4{
+        color: var(--text-colour-alternative);
+    }
+
+    i{
+        background-color: var(--text-colour-alternative);
+        color: var(--HighLight-colour);
+    }
+}
+
+
+button{
+    text-decoration: none;
+    background-color: #04aa6d00;
+    border: none;
+    font-size: 16px;
+}
+
+button:hover{
+    p{
+        color: var(--HighLight-colour);
+        font-weight: var(--font-semibold);
+    }
+}

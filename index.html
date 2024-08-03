@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cê Sabe</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+    <link rel="stylesheet" href="CSS/Main.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+<script src="../JavaScript/script.js"></script>
+
+<link rel="stylesheet" href="carousel.css">
+
+</head>
+<body>
+
+
+    
+<!-- Menu e home -->
+    <header class="header">
+        <nav>
+            <ul>
+                <img class="logo" src="../Fotos/instituto criar.png" alt="">
+                    <li> <button class="scroll" data-target=".home">
+                        <p>Home</p>
+                    </button>
+                    </li>
+                    
+                    <li> <button class="scroll" data-target=".video">
+                        <p>Clipe</p>
+                    </button>
+                    </li>
+
+                    <li> <button class="scroll" data-target=".sobre-artista">
+                        <p>Sobre a artista</p>
+                    </button>
+                    </li>
+
+                    <li> <button class="scroll" data-target=".diario-de-bordo">
+                        <p>Diário de Bordo</p>
+                    </button>
+                    </li>
+                    
+                    <li> <button class="scroll" data-target=".Fotos">
+                        <p>Making Of</p>
+                    </button>
+                    </li>
+
+                    <li> <button class="scroll" data-target=".carousel-slide">
+                        <p>Equipe</p>
+                    </button>
+                    </li>
+            </ul>
+        </nav>
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            
+            $(document).ready(function(){
+                $(".scroll").click(function(event){
+                    event.preventDefault();
+                    var target = $(this).data('target');
+                    $('html,body').animate({scrollTop:$(target).offset().top}, 500);
+                });
+            });
+
+        </script>
+    </header>
+
+<div class="home">
+    
+    
+    <h1 id="CêSabeTitulo">Cê Sabe</h1>
+    
+    <p>La Aura, uma jovem em busca de amor, que idealiza um parceiro ideal, idealizado pelo misterioso Homem de Terno Azul Royal. Ela embarca em uma série de encontros, procurando encontrar a pessoa ideal para si. No entanto, sua imaginação é cativada pelo Homem de Terno Azul Royal, que se torna uma inspiração real em sua vida, inclusive influenciando sua criação musical. Esse encontro desencadeia uma jornada emocional para La Aura, onde a busca pelo Homem de Terno Azul Royal se torna uma parte central de sua história.</p>
+</div>
+<!-- Menu e home -->
+
+<!-- Clipe -->
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BY-PEcm-cu0?si=obcVBIEOKV9pP0af" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</video>
+</div>
+<!-- Clipe -->
+
+<!-- Sobre a artista -->
+<div class="sobre-artista">
+    <img src="../Fotos/la-aura.png" alt="">
+<div class="infos-artista">
+    <h1>La Aura</h1>
+    <p>
+        Paulista com sotaque do interior, inquieta, criativa, e muito sonhadora. Nascida da última leva do séc. passado, sempre muito curiosa e interessada pelo mundo da comunicação desde cedo. Se apaixona pela música, arte, cinema e não demorou muito pra decidir que o  caminho era esse.
+    </p>
+    <p>
+        Sem saber muito por onde começar, seu  primeiro emprego aos 14 anos foi como maquiadora assistente, a partir daí, trabalhando em produções publicitárias, e outras independentes. Isso atiçou seu interesse e então foi atrás de conhecimento técnico pra crescer dentro da área. Entrou no Instituto Criar de TV, Cinema e Novas Mídias, para cursar técnico em Direção de Fotografia. 
+    </p>
+    <p>
+    Após sua estadia no criar, começou a produzir de forma independente videoclipes para músicas autorais, e de outros artistas independentes. Trabalhou como produtora cultural em uma Casa de Cultura Municipal, onde pode agregar os seus conhecimentos. 
+    Seu  objetivo continua sendo o mesmo, ser de VERDADE por onde passar, e entregar trabalhos relevantes culturais, representando a diversidade tão rica do nosso país.
+        
+        </p>
+</div>
+    
+</div>
+
+<div class="diario-de-bordo">
+    <h1>Diário de bordo</h1>
+</div>
+<!-- Sobre a artista -->
+
+<!-- Cards da pré Produção -->
+<div class="Cards-Bordo">
+    <div class="cards">
+        <h2>Pré Produção</h2>
+        <p>A pré produção se inicia logo após a primeira reunião para a familiarização da equipe, após primeiras ideias e insights é feita a entrega da escaleta do roteiro e o refinamento dele com discussões coletivas, juntamente com pesquisa de referências e a proposta criativa de todos os departamentos. 
+        Após as primeiras entregas, começam as reuniões com a artista para ela entender a nossa proposta e como ela seria integrada aos processos, a busca do elenco e todos os ensaios.
+            </p>
+    </div>
+
+    <div class="cards">
+        <h2>Produção</h2>
+        <p>A produção se divide em dois dias, iniciando com a pré-light, e nela montamos toda a estrutura no estúdio e fazemos os primeiros testes de gravação com o elenco e a artista, buscando entender o que seria válido de fazer no dia da gravação. Após o final do dia do pré light, o dia da gravação chega, nele tudo é pra valer, a equipe em conjunto trabalha para que todos os planos sejam feitos e que tudo saia da melhor forma, e que a história contada no roteiro e na música seja captada.</p>
+    </div>
+
+    <div class="cards">
+        <h2>Pós Produção</h2>
+        <p>Depois de todos as diárias tendo sido finalizadas, chega o momento de refinar o material bruto, as equipes de pós, making of e áudio trabalham a partir das gravações feitas, os processos se dividem em: fazer a montagem, tratamento das imagens e áudio, créditos, criação de foleys, sincronização do áudio e imagem, coloração,  motion, design gráfico, elaboração do site e sua programação, e as primeiras exibições técnicas para entender onde melhorar para a versão final.</p>
+    </div>
+
+</div>
+<!-- Cards da pré Produção -->
+    
+<div class="Fotos">
+    <div class = "uma-foto">
+        <img src="../Fotos/cenário.jpg" alt="">
+    </div>
+    <div class="tres-fotos">
+        <img src="../Fotos/mulher-na mesa.jpg" alt="" srcset="">
+        <img src="../Fotos/gif-boa.gif" alt="">
+        <img src="../Fotos/IMG_0055.jpg" alt="">
+    </div>
+    <div class="duas-fotos">
+        <img src="../Fotos/curriculo.jpg" alt="">
+        <img src="../Fotos/gif-legal.gif" alt="">
+    </div>
+</div>
+<!-- Cards da pré Produção -->
+
+
+
+<div class="carousel">
+    <input type="radio" id="carousel-css-slide-1" name="carousel-css" value="slide-1" checked/>
+    <input type="radio" id="carousel-css-slide-2" name="carousel-css" value="slide-2"/>
+    <input type="radio" id="carousel-css-slide-3" name="carousel-css" 
+    value="slide-3"/>
+    <input type="radio" id="carousel-css-slide-4" name="carousel-css" 
+    value="slide-4"/>
+
+    <input type="radio" id="carousel-css-slide-5" name="carousel-css" 
+    value="slide-5"/>
+
+    <input type="radio" id="carousel-css-slide-6" name="carousel-css" 
+    value="slide-6"/>
+
+    <input type="radio" id="carousel-css-slide-7" name="carousel-css" 
+    value="slide-7"/>
+
+    <input type="radio" id="carousel-css-slide-8" name="carousel-css" 
+    value="slide-8"/>
+
+    <input type="radio" id="carousel-css-slide-9" name="carousel-css" 
+    value="slide-9"/>
+    
+    <input type="radio" id="carousel-css-slide-10" name="carousel-css" 
+    value="slide-10"/>
+
+    <input type="radio" id="carousel-css-slide-11" name="carousel-css" 
+    value="slide-11"/>
+
+    
+    
+    <!-- More Radio Buttons Here -->
+
+    <label for="carousel-css-slide-1" data-value="slide-1"></label>
+    <label for="carousel-css-slide-2" data-value="slide-2"></label>
+    <label for="carousel-css-slide-3" data-value="slide-3"></label>
+    <label for="carousel-css-slide-4" data-value="slide-4"></label>
+    <label for="carousel-css-slide-5" data-value="slide-5"></label>
+    <label for="carousel-css-slide-6" data-value="slide-6"></label>
+    <label for="carousel-css-slide-7" data-value="slide-7"></label>
+    <label for="carousel-css-slide-8" data-value="slide-8"></label>
+    <label for="carousel-css-slide-9" data-value="slide-9"></label>
+    <label for="carousel-css-slide-10" data-value="slide-10"></label>
+    <label for="carousel-css-slide-11" data-value="slide-11"></label>
+
+    
+    <!-- More Lables Here -->
+
+    <div class="carousel-wrapper">
+    <div class="carousel-slide"> 
+
+    <!-- slide 1 -->
+<section>
+
+    <h2 id="oi"></h2>
+
+    <div class="swiper mySwiper conteiner">
+        <div class="swiper-wraper content">
+            <div class="swiper-slide card">
+                
+                    <img src="../Fotos/evellyn.jpg" alt="">
+                        <div class="name-profesion">
+                        <h3>Evellyn Pereira</h3>
+                        <h4>1°Assistente de Direção</h4>
+                        <p>Evellyn Pereira, 21 anos, estudou teatro na Fábrica de Cultura Vila Nova Cachoeirinha em 2017. Em 2023, iniciou sua carreira no audiovisual com o curso É Nóis Na Fita,  participando da produção do curta "RITA". Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias.  Iniciou também o ensino superior, cursando "Rádio, TV e Internet" na Universidade Cruzeiro do Sul. Participou da produção de clipes musicais como Assistente de Direção, Preparação de Elenco e Assistente de Produção..</p>
+
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com/_emillyps2_?igsh=cTdiNmEzNXdqanZq"target=”_blank ><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                
+            </div>
+            <!-- fim primeiro card -->
+
+            <!-- começo card 2 -->
+
+            <div class="swiper-slide card">
+                
+                <img src="../Fotos/emilly.jpg" alt="">
+                    <div class="name-profesion">
+                    <h3>Emilly Pereira</h3>
+                    <h4>2°Assistente de Direção</h4>
+                    <p>Emilly Pereira, 21 anos, estudou teatro na Fábrica de Cultura Vila Nova Cachoeirinha em 2017. Em 2023, iniciou sua carreira no audiovisual com o curso É Nóis Na Fita,  participando da produção do curta "RITA". Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias.  Iniciou também o ensino superior, cursando "Rádio, TV e Internet" na Universidade Cruzeiro do Sul. Participou da produção de clipes musicais como Produção de Set/Assistente de Produção, Preparação de Elenco e 2ª Assistente de Direção..</p>
+
+                    <div class="media-icons">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+
+            
+            </div>
+            <!-- fim card 2 -->
+            
+            <!-- começo card 3 -->
+
+            <div class="swiper-slide card">
+                
+                <img src="../Fotos/ligia.jpg" alt="">
+                <div class="name-profesion">
+                    <h3>Ligia Cruz</h3>
+                    <h4>Roteirista</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+
+                    <div class="media-icons">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        <div>
+    </div>
+</section>
+    </div>
+
+    <div class="carousel-slide">
+
+        <!-- slide 2 -->
+        <section>
+            <div class="swiper mySwiper conteiner">
+                <div class="swiper-wraper content">
+                    <div class="swiper-slide card">
+                        
+                            <img src="../Fotos/caldin.jpg" alt="">
+                                <div class="name-profesion">
+                                <h3>Caldin</h3>
+                                <h4>Roteirista</h4>
+                                <p>Emanuel Caldin, 21 anos, iniciou sua carreira em 2022 no "É Nois na Fita", participando do curta "Entre Elas" como roteirista e assistência de fotografia. Já realizou outros três curtas metragens em funções como Roteirista, Diretor, assistente de produção e atuação. Já realizou operação de câmera para o programa "Bora Geral na TvT". Participou como roteirista e elenco no vídeo clipe "Cê sabe".</p>
+        
+                                <div class="media-icons">
+                                    <a href="https://www.instagram.com/eucaldin/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <!-- fim primeiro card -->
+        
+                    <!-- começo card 2 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/katmira.jpg" alt="">
+                            <div class="name-profesion">
+                            <h3>KatMira</h3>
+                            <h4>Direção de Produção</h4>
+                            <p>Katmira, 20 anos, autora do Livro "Kat Mira Versos" lançado em 2023 e integrante do Sarau Urutu, Coletivo responsável pelo Documentário "Terreiros da Urutu" (2024).
+                            Em 2023 fez escola de criadores - Instituto Kondzilla com o curso de audiovisual, midias e economia criativa, Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias. Participou da produção de video clipes como Direção de Produção, Preparação de Elenco, Assistência de Produção.</p>
+        
+                            <div class="media-icons">
+                                <a href="https://www.instagram.com/katmiraversos/?igsh=dHRhdW95MXh2MzZi"target=”_blank ><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+        
+                    
+                    </div>
+                    <!-- fim card 2 -->
+                    
+                    <!-- começo card 3 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/josue.jpg" alt="">
+                        <div class="name-profesion">
+                            <h3>Josué D. Lekadiano</h3>
+                            <h4>Produção Executiva</h4>
+                            <p>Josué D. Lekadiano, 21 anos, estudei edição de vídeo na Santa Luzia, participei de um projeto escolar, onde dirigi uma Websérie de três episódios que depois apresentariamos para escola toda.
+                            Atualmente estudando produção audiovisual no Instituto Criar de TV, Cinema e Novas Mídias. 
+                            Participei de dois Clipes, um como produtor executivo, o outro como Assistente de Produção
+                            </p>
+        
+                            <div class="media-icons">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                <div>
+            </div>
+        </section>
+      </div>
+      <div class="carousel-slide">
+    
+        <!-- slide 3 -->
+        <section>
+            <div class="swiper mySwiper conteiner">
+                <div class="swiper-wraper content">
+                    <div class="swiper-slide card">
+                        
+                            <img src="../Fotos/bernardo.jpg" alt="">
+                                <div class="name-profesion">
+                                <h3>Bernardo Soares</h3>
+                                <h4>Prod de set/ Assist de Prod</h4>
+                                <p>Bernardo Soares, 20 anos, estudou operação de câmera na unidade Senac São Miguel Paulista em 2021. Depois de ter feito produções independentes para seu canal do YouTube desde 2016, ano em que iniciou sua jornada no audiovisual. Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias, na qual participou da produção de clipes musicais como Produção de Set e Assistente de Produção do clipe "Cê Sabe" da artista La Aura.</p>
+        
+                                <div class="media-icons">
+                                    <a href="https://www.instagram.com/imnotbernardo/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <!-- fim primeiro card -->
+        
+                    <!-- começo card 2 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/pessoa.jpg" alt="">
+                            <div class="name-profesion">
+                            <h3>Isabelly de Morais</h3>
+                            <h4>Assistente  Executiva</h4>
+                            <p>Isabelly de Morais Silva, 19 anos, nascida e criada em São Paulo, na Zona Leste. Atualmente estuda Produção Audiovisual no Instituto Criar de TV, Cinema e Novas Mídias. Participou do Videoclipe Cê sabe como 1•Assistente de Produção Executiva.</p>
+        
+                            <div class="media-icons">
+                                <a href="https://www.instagram.com/isa_belly_morais/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+        
+                    
+                    </div>
+                    <!-- fim card 2 -->
+                    
+                    <!-- começo card 3 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/fafa.jpg" alt="">
+                        <div class="name-profesion">
+                            <h3>Fafá</h3>
+                            <h4>Assistente de Produção</h4>
+                            <p>Fabricio de Lima, vulgo Fafá, 19 anos. Em 2015 estudou teatro pela escola e Teatro Alfa, mesma época estudava o movimento hip-hop e luta capoeira no C.C.A. Raio de Sol, focando mais na dança e no Grafiti.
+                            Em 2020, com 15 anos, entrou no coletivo SomoSulGang da produtora SSG Records, onde aprofundou suas habilidades como filmmaker e fotógrafo. E em 2024 ingressou na faculdade de ciências da computação na Anhanguera, sendo prounista; juntamente com o curso no departamento de produção no Instituto Criar de Tv e Cinema</p>
+        
+                            <div class="media-icons">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                <div>
+            </div>
+        </section>
+    </div>
+    <div class="carousel-slide">
+
+        <!-- slide 4 -->
+
+        <section>
+            <div class="swiper mySwiper conteiner">
+                <div class="swiper-wraper content">
+                    <div class="swiper-slide card">
+                        
+                            <img src="../Fotos/bia.jpg" alt="">
+                                <div class="name-profesion">
+                                <h3>Beatriz Araújo</h3>
+                                <h4>Assistente de Produção</h4>
+                                <p>Beatriz Araújo, 19 anos, transitou por diversas áreas do mercado de trabalho até se encontrar profissionalmente após seu primeiro contato com Produção Audiovisual através do Instituto Criar de TV, Cinema e Novas Mídias.Até então participou da produção de clipes musicais como Produção Executiva e Assistente de Produção.</p>
+        
+                                <div class="media-icons">
+                                    <a href="https://www.instagram.com/beatrizz_0/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <!-- fim primeiro card -->
+        
+                    <!-- começo card 2 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/ossie 2.jpg" alt="">
+                            <div class="name-profesion">
+                            <h3>Carlos Ossie</h3>
+                            <h4>Op. Câmera</h4>
+                            <p>Carlos Ossie, 20 anos, atuando a 4 Anos profissionalmente na área do Audiovisual como Produtor e Diretor Audiovisual independente, trabalhou como Fotógrafo e Arte Educador dentro da Casa de Cultura São Miguel Paulista durante o período de 2019 a 2020, em 2021 começou a produzir de maneira autônoma VídeoClipes de artistas da quebrada. Em 2022 fez parte da operação de Câmera da PEC “Como Vê oque Escreve você” do Instituto Criar e hoje em 2024 foi o responsável pela realizações de +de 50 Vídeo Clipes já lançados no YOUTUBE.</p>
+        
+                            <div class="media-icons">
+                                <a href="https://www.instagram.com/ossieinlest/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+        
+                    
+                    </div>
+                    <!-- fim card 2 -->
+                    
+                    <!-- começo card 3 -->
+        
+                    <div class="swiper-slide card">
+                        
+                        <img src="../Fotos/narcu.jpg" alt="">
+                        <div class="name-profesion">
+                            <h3>Narcu Pablo</h3>
+                            <h4>Direção de foto</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+        
+                            <div class="media-icons">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+                <div>
+            </div>
+        </section>
+      </div>
+
+      <div class="carousel-slide">
+                        <!-- slide 6 -->
+
+                <section>
+                    <div class="swiper mySwiper conteiner">
+                        <div class="swiper-wraper content">
+                            <div class="swiper-slide card">
+                                
+                                    <img src="../Fotos/livis.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Lívia Dunibugos</h3>
+                                        <h4>Gaffer</h4>
+                                        <p>Lívia Dunibugos, 19 anos, iniciou sua carreira no áudio visual como estudante de Fotografia no instituto Criar de TV, cinema e novas mídias. Cursa licenciatura em artes visuais na universidade Anhembi Morumbi e atuou como chefe de elétrica e máquinaria no vídeo clipe “cê sabe”.</p>
+                
+                                        <div class="media-icons">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <!-- fim primeiro card -->
+                
+                            <!-- começo card 2 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/mykaren.jpg" alt="">
+                                    <div class="name-profesion">
+                                    <h3>Mykaren Carvalho</h3>
+                                    <h4>Making Of</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                
+                            
+                            </div>
+                            <!-- fim card 2 -->
+                            
+                            <!-- começo card 3 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/pessoa.jpg" alt="">
+                                <div class="name-profesion">
+                                    <h3>Alessandro</h3>
+                                    <h4>Assistência de Elétrica</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                        <div>
+                    </div>
+                </section>
+      </div>
+      <div class="carousel-slide">
+                <!-- slide 8 -->
+
+                <section>
+                    <div class="swiper mySwiper conteiner">
+                        <div class="swiper-wraper content">
+                            <div class="swiper-slide card">
+                                
+                                    <img src="../Fotos/dre.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Dre Borges</h3>
+                                        <h4>Assistência de Câmera</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                        <div class="media-icons">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <!-- fim primeiro card -->
+                
+                            <!-- começo card 2 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/kinha.jpg" alt="">
+                                    <div class="name-profesion">
+                                    <h3>Kinha</h3>
+                                    <h4>Assistência de Maquinária</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                
+                            
+                            </div>
+                            <!-- fim card 2 -->
+                            
+                            <!-- começo card 3 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/baiana.jpg" alt="">
+                                <div class="name-profesion">
+                                    <h3>Baiana</h3>
+                                    <h4>Visagismo</h4>
+                                    <p>Evely Baianinha,18 anos, já fui modelo fotográfico em agências e em concurso de miss também. Atualmente estou estudando Direção de Arte no instituto Criar de Tv,Cinema e Novas Mídias.Participei de clipes musicais como Maquiadora, fico responsável pela maquiagem da artista e do elenco.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                        <div>
+                    </div>
+                </section>
+      </div>
+      <div class="carousel-slide">
+                <!-- slide 8 -->
+
+                <section>
+                    <div class="swiper mySwiper conteiner">
+                        <div class="swiper-wraper content">
+                            <div class="swiper-slide card">
+                                
+                                    <img src="../Fotos/sabrina.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Sabrina Silva</h3>
+                                        <h4>Cenografia</h4>
+                                        <p>Sabrina Silva, 21 anos, estudou teatro na Oficina de Teatro Puppets em 2018. Em 2022 iniciou um projeto de moda sustentável reutilizando tecidos descartados. Atualmente estuda Direção de Arte no Instituto Criar de TV, Cinema e Novas Mídias. Participou da produção de vídeo clipes com Cenografia e Assistência de Maquiagem.</p>
+                
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/sa._siilva/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <!-- fim primeiro card -->
+                
+                            <!-- começo card 2 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/joe.jpg" alt="">
+                                    <div class="name-profesion">
+                                    <h3>Joe Belfort</h3>
+                                    <h4>Figurinista</h4>
+                                    <p>Joe Belfort, 18 anos, estudou projeto espetáculo e violino na fábrica de cultura sapopemba em 2022, iniciou a carreira no audiovisual a partir do curso É Nois Na Fita, que foi realizando na turma de 2023, participando como um dos Diretores de fotografia do curta “ Absentia”. Atualmente estuda Direção de Arte no Instituto Criar de TV, Cinema e Novas Mídias.</p>
+                
+                                    <div class="media-icons">
+                                        <a href="https://www.instagram.com/joeiddle/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                
+                            
+                            </div>
+                            <!-- fim card 2 -->
+                            
+                            <!-- começo card 3 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/winter.jpg" alt="">
+                                <div class="name-profesion">
+                                    <h3>Winter</h3>
+                                    <h4>Assistente de Cenografia</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                        <div>
+                    </div>
+            </section>
+      </div>
+      <div class="carousel-slide">
+        
+                <!-- slide 9 -->
+
+                <section>
+                    <div class="swiper mySwiper conteiner">
+                        <div class="swiper-wraper content">
+                            <div class="swiper-slide card">
+                                
+                                    <img src="../Fotos/kauan.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Kauan O. Dos Santos</h3>
+                                        <h4>Assistência de Maquiagem</h4>
+                                        <p>Kauan Oliveira dos Santos, 19 anos, estudou na Etec Tiquatira de 2020 á 2022, aonde se formou em modelagem do vestuário. 
+                                        Em 2020, iniciou sua carreira no mundo artístico, pela área da moda aonde pelo contato direto com outras expressões, acabou criando proximidade á muitas tecnicas e outras expressões artísticas. Atualmente, estuda Direção de Arte no Instituto Criar e já participou de produções de editorias, clipes músicas e desfiles como produtor, diretor de arte, maquiador, figurinista e stylish.</p>
+                
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/pink_heather_/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <!-- fim primeiro card -->
+                
+                            <!-- começo card 2 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/sofia.jpg" alt="">
+                                    <div class="name-profesion">
+                                    <h3>Sof Santos</h3>
+                                    <h4>Figurante</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                
+                            
+                            </div>
+                            <!-- fim card 2 -->
+                            
+                            <!-- começo card 3 -->
+                
+                            <div class="swiper-slide card">
+                                
+                                <img src="../Fotos/victor.jpg" alt="">
+                                <div class="name-profesion">
+                                    <h3>Victor Souza</h3>
+                                    <h4>Diretor de Áudio</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                
+                                    <div class="media-icons">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                
+                
+                        <div>
+                    </div>
+            </section>
+      </div>
+
+      <div class="carousel-slide">
+                    <!-- slide 10 -->
+
+                    <section>
+                        <div class="swiper mySwiper conteiner">
+                            <div class="swiper-wraper content">
+                                <div class="swiper-slide card">
+                                    
+                                        <img src="../Fotos/dricko.jpg" alt="">
+                                            <div class="name-profesion">
+                                            <h3>Dricko</h3>
+                                            <h4>Op. Audio</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                    
+                                            <div class="media-icons">
+                                                <i class="fab fa-instagram"></i>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <!-- fim primeiro card -->
+                    
+                                <!-- começo card 2 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/mogli.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Mogli</h3>
+                                        <h4>Editor de Áudio</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                    
+                                        <div class="media-icons">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </div>
+                    
+                                
+                                </div>
+                                <!-- fim card 2 -->
+                                
+                                <!-- começo card 3 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/Daiana.jpg" alt="">
+                                    <div class="name-profesion">
+                                        <h3>Daia Lima</h3>
+                                        <h4>Assistência de Microfonista</h4>
+                                        <p>Daiana Lima, 18 anos, formada como técnica em comunicação visual pela etec José Rocha Mendes. Atualmente estuda audiovisual com foco em Som no Instituto Criar de Tv, Cinema e Novas Mídias. Contribuiu para os clipes musicais como microfonista e editora de som.</p>
+                    
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/daianaaa_lima/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                    
+                            <div>
+                        </div>
+                </section>
+        
+      </div>
+
+      <div class="carousel-slide">
+                    <!-- slide 11 -->
+
+                    <section>
+                        <div class="swiper mySwiper conteiner">
+                            <div class="swiper-wraper content">
+                                <div class="swiper-slide card">
+                                    
+                                        <img src="../Fotos/pessoa.jpg" alt="">
+                                            <div class="name-profesion">
+                                            <h3>Vitória Miranda</h3>
+                                            <h4>Montagem/ Cronograma</h4>
+                                            <p>Vitória Miranda, 19 anos, estudou Fotografia, Cinema e Audiovisual na Fábrica de Cultura Osasco. Em 2023, iniciou sua carreira no Espetáculo "Manifesto Humano: Escrevendo meu ser" da Fábrica de Cultura Osasco na área da edição e projeção de vídeos. Atualmente estuda Pós Produção no Instituto Criar de TV, Cinema e Novas Mídias..</p>
+                    
+                                            <div class="media-icons">
+                                                <a href="https://www.instagram.com/vitoria.miiranda/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <!-- fim primeiro card -->
+                    
+                                <!-- começo card 2 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/loop-men.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>Loop Men</h3>
+                                        <h4>cor, storyboard, e animação</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi quibusdam porro molestiae dignissimos quos. Ratione nulla reprehenderit, distinctio iure consectetur rem, corporis quae eius animi maiores obcaecati ad nisi.</p>
+                    
+                                        <div class="media-icons">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </div>
+                    
+                                
+                                </div>
+                                <!-- fim card 2 -->
+                                
+                                <!-- começo card 3 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/tomeh.jpg" alt="">
+                                    <div class="name-profesion">
+                                        <h3>Tomeh de Freitas</h3>
+                                        <h4>Mood/Motion/Logagem</h4>
+                                        <p>Tomeh de Freitas, 18 anos, começou a estudar edição de vídeos logo na infância. Em 2023 se formou como Técnico de Informática para Internet na ETEC Jornalista Roberto Marinho, ano em que começou a dirigir, produzir e apresentar curtas como "Robs, Uma Jornada de Autoconhecimento". Em 2024 ingressou no Instituto Criar de TV, Cinema e Novas Mídias com ênfase em Pós produção, onde busca se especializar; simultaneamente, vem trabalhando na área de VFX e Motion Design para videoclipes e publicidade.</p>
+                    
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/ttxmeh/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                    
+                            <div>
+                        </div>
+                </section>
+      </div>
+
+      <div class="carousel-slide">
+                    <!-- slide 12 -->
+
+                    <section>
+                        <div class="swiper mySwiper conteiner">
+                            <div class="swiper-wraper content">
+                                <div class="swiper-slide card">
+                                    
+                                        <img src="../Fotos/kaua.jpg" alt="">
+                                            <div class="name-profesion">
+                                            <h3>Kauã Olecram</h3>
+                                            <h4>mood board/boletim</h4>
+                                            <p>Kauã Marcelo, 20 anos. Iniciou no Audiovisual recentemente através do Instituto Criar, na área de pós-produção.
+                                            </p>
+                    
+                                            <div class="media-icons">
+                                                <a href="https://www.instagram.com/kauamarceloo/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                                <!-- fim primeiro card -->
+                    
+                                <!-- começo card 2 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/joao.jpg" alt="">
+                                        <div class="name-profesion">
+                                        <h3>João Mendes</h3>
+                                        <h4>Web Designer/Developer</h4>
+                                        <p>João Mendes, 18 anos, estudou Comunicação Visual na Etec José Rocha Mendes ba Vila Prudente(2021-2023). Desde essa época o mesmo se tornou apaixonado no mundo do design gráfico, e na programação, participando de projetos gráficos e englobam desde revistas até criação de marcas. Atualmente estuda no núcleo de Tecnologia no Instituto Criar de TV, Cinema e Novas Mídias, além de curar Web Design na FIAP.</p>
+                    
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/joaoapraga/"target=”_blank ><i class="fab fa-instagram"></i></a>
+
+                                        </div>
+                                    </div>
+                    
+                                
+                                </div>
+                                <!-- fim card 2 -->
+                                
+                                <!-- começo card 3 -->
+                    
+                                <div class="swiper-slide card">
+                                    
+                                    <img src="../Fotos/coreano.jpg" alt="">
+                                    <div class="name-profesion">
+                                        <h3>Coreano</h3>
+                                        <h4>Diário de Bordo</h4>
+                                        <p>Marcos Felipe, 20 anos, nascido e criado em São paulo,na zona sul. Atualmente estudo tecnologia e design Instituto criar de tv, cinema e novas mídias. Participou de videoclipe cê sabe como auxiliar do site cê sabe.</p>
+                    
+                                        <div class="media-icons">
+                                            <a href="https://www.instagram.com/pretinho_da_019/"target=”_blank ><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                    
+                            <div>
+                        </div>
+                </section>
+      </div>
+      <!-- More Slides Here -->
+    </div>
+  </div>
+</body>
+</html>
